@@ -15,10 +15,8 @@ cartera: 1 -->
 
 
 <?php
-// Crear una funcion que nos devuelva un array con la misma estructura pero solo con los productos que hemos podido comprar.
 
-function compras(){
-    // Crear nuestra cartera con nuestro saldo.
+// Crear nuestra cartera con nuestro saldo.
     $cartera = 9;
 
     // Crear un array con los productos y su precio.
@@ -30,6 +28,10 @@ function compras(){
         'agua' => 2
     ];
 
+// Crear una funcion que nos devuelva un array con la misma estructura pero solo con los productos que hemos podido comprar.
+
+function compras($productos, $cartera){
+    
     // Creamos nuestra cesta de la compra.
         $cesta = [];
 
@@ -50,6 +52,6 @@ function compras(){
     var_dump($cesta);
 }
 
-compras()
+compras($productos, $cartera);
 
 ?>
