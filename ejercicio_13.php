@@ -19,7 +19,7 @@ cartera: 1 -->
 // Crear nuestra cartera con nuestro saldo.
     $cartera = 9;
 
-    // Crear un array con los productos y su precio.
+// Crear un array con los productos y su precio.
     $productos = [
         'pan' => 2,
         'patatas' => 1,
